@@ -31,3 +31,47 @@
     <li>Displays the final score after the quiz is completed.</li>
     <li>Provides an option to restart the quiz.</li>
   </ul>
+  <li><strong>Key Features:</strong>
+            <ul>
+                <li>Displays the user's score out of the total number of questions.</li>
+                <li>Includes a "Restart Quiz" button that resets the quiz state and allows the user to retake it.</li>
+            </ul>
+        </li>
+        <li><strong>Props Passed:</strong>
+            <ul>
+                <li><code>score</code>: The final score achieved by the user.</li>
+                <li><code>totalQuestions</code>: The total number of questions in the quiz.</li>
+                <li><code>restartQuiz</code>: A function to reset the quiz.</li>
+            </ul>
+        </li>
+    </ul>
+    <h2>Installation and Setup</h2>
+    <ol>
+        <li>Clone the repository to your local machine:
+            <pre><code>git clone https://github.com/your-username/quiz-app.git
+cd quiz-app</code></pre>
+        </li>
+        <li>Install the required dependencies:
+            <pre><code>npm install</code></pre>
+        </li>
+        <li>Start the development server:
+            <pre><code>npm start</code></pre>
+        </li>
+        <li>Open your browser and navigate to <code>http://localhost:3000</code> to view the app.</li>
+    </ol>
+    <h2>Usage</h2>
+    <ol>
+        <li>Open the app in your browser.</li>
+        <li>Answer the multiple-choice questions by selecting one option.</li>
+        <li>Navigate through the questions using the "Next" button.</li>
+        <li>At the end of the quiz, view your final score on the result page.</li>
+        <li>Use the "Restart Quiz" button to retake the quiz.</li>
+    </ol>
+    <h2>Future Enhancements</h2>
+    <ul>
+        <li>Add a timer for each question to make the quiz more challenging.</li>
+        <li>Include a leaderboard to track high scores.</li>
+        <li>Allow users to select difficulty levels (easy, medium, hard).</li>
+        <li>Add animations and transitions for a better user experience.</li>
+        <li>Support for fetching quiz data dynamically from an API.</li>
+    </ul>
